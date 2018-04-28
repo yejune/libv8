@@ -1,4 +1,4 @@
-FROM ubuntu:18.04 as build
+FROM debian:stretch-slim as build
 
 ARG V8_VERSION=6.8.103
 ENV DEBIAN_FRONTEND noninteractive
